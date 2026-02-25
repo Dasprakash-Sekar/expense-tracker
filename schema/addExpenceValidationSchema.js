@@ -17,7 +17,7 @@ const addExpenceValidationSchema = {
         },
         trim: true,
         isIn: {
-            options: [[1, 2, 3, 4, 5]], // Assuming categories are represented as integers
+            options: [[1, 2, 3, 4, 5,6]], // Assuming categories are represented as integers
             errorMessage: 'Categorie must be one of the following: Food, Transport, Entertainment, Utilities, Other'
         },
         toInt: true

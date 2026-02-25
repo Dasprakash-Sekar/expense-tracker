@@ -1,13 +1,14 @@
 const express = require('express');
 const router = express.Router();
-const { addExpence, getTransactions ,getReport} = require('../../controllers/transactionController');
-const verifyToken = require('../../middleware/verifyToken');
+const { addExpence, getTransactions, getReport, addCategoryLimits } = require('../../controllers/transactionController');
 const { checkSchema } = require("express-validator");
 const addExpenceValidation = require('../../schema/addExpenceValidationSchema');
+const limitsValidation = require('../../schema/limitsSchema');
 
-router.post('/add', verifyToken, checkSchema(addExpenceValidation), addExpence);
-router.get('/transaction-list',  getTransactions);
-router.get('/report',  getReport);
+router.post('/add',  checkSchema(addExpenceValidation), addExpence);
+router.get('/transaction-list', getTransactions);
+router.post('/category-limits',  checkSchema(limitsValidation), addCategoryLimits);
+router.get('/report', getReport);
 
 module.exports = router;
 
