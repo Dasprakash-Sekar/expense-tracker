@@ -78,4 +78,9 @@ A full-stack expense tracker built on this concept is live at [novatrax.novacode
 
 ## Author
 
-**Dasprakash Sekar** — [dasprakashsekar.site](https://dasprakashsekar.site) · [LinkedIn](https://www.linkedin.com/in/dasprakashsekar)
+**Dasprakash Sekar** — [dasprakashsekar.site](https://dasprakashsekar.site) · [LinkedIn](https://www.linkedin.com/in/dasprakashsekar) · [GitHub](https://github.com/Dasprakash-Sekar)
+
+---
+
+### ⭐ Support & Community
+If you found this project helpful, please consider giving it a **Star** and **[following me on GitHub](https://github.com/Dasprakash-Sekar)** for more full-stack web applications and production-ready APIs!
